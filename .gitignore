@@ -10,3 +10,10 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# 运行数据（不得写入源码目录）
+data/
+*.db
+*.db-wal
+*.db-shm
+*.db.lock
